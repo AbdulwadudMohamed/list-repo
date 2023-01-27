@@ -11,7 +11,7 @@ GETUSERNAME() {
 VERIFYUSERNAME() {
 read -p "Is your username: $username?" yn
     case $yn in 
-        [Yy]* ) echo "SUCCESS";;
+        [Yy]* ) echo "-----Repository List-----";;
         [Nn]* ) echo "Wrong Details Recorded"GETUSERNAME;; 
         *) echo "Please answer yes or no.";;
         esac
@@ -28,7 +28,11 @@ repos=$(curl -s "https://api.github.com/users/$username/repos?per_page=1000")
 for repo in $(echo "${repos}" | jq -r '.[] | @base64'); do
     repo_name=$(echo ${repo} | base64 --decode | jq -r '.name')
     repo_desc=$(echo ${repo} | base64 --decode | jq -r '.description')
-    
-    echo "$repo_name - $repo_desc"
+    commits=$(curl -s -I -k "https://api.github.com/repos/$username/$repo_name/commits?per_page=1" | sed -n '/^[Ll]ink:/ s/.*"next".*page=\([0-9]*\).*"last".*/\1/p')
+   
+    #Output
+    echo ""
+    echo "Repo Name: $repo_name" 
+    echo "Repo Desc: $repo_desc"
+    echo "No of commits: $commits"
 done
-
