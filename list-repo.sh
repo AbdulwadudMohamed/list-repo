@@ -1,25 +1,7 @@
 #!/bin/sh
-
-#Get Github Username
-GETUSERNAME() {
-    echo "Enter GitHub Username (Case sensitive)"
-    read username
-    VERIFYUSERNAME username
-}
-
-#Verify username
-VERIFYUSERNAME() {
-read -p "Is your username: $username?" yn
-    case $yn in 
-        [Yy]* ) echo "-----Repository List-----";;
-        [Nn]* ) echo "Wrong Details Recorded"GETUSERNAME;; 
-        *) echo "Please answer yes or no.";;
-        esac
-}
-
-GETUSERNAME
-
 #Use the GitHub API to get: 
+
+username="AbdulwadudMohamed"
 
 #Repositories
 repos=$(curl -s "https://api.github.com/users/$username/repos?per_page=1000")
