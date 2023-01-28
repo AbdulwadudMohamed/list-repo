@@ -19,5 +19,6 @@ To List repositories of the User which is defined in script. To use the GitHub A
 ## Upcoming tasks
 
 - [ ] Use matplotlib to process the data into a bar chart. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/4
+- [ ] Allow different Users based on input. https://github.com/AbdulwadudMohamed/list-repo/issues/7
 
 ##### Unsolved Unexpected problems
