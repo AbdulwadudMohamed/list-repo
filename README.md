@@ -19,7 +19,10 @@ To List repositories of the User which is defined in script. To use the GitHub A
 
 ## Upcoming tasks
 
-- [ ] Separate data taken from script. https://github.com/AbdulwadudMohamed/list-repo/issues/8
+- [ ] Get name for each repo stored in variable. https://github.com/AbdulwadudMohamed/list-repo/issues/8
+- [ ] Export each repo name variables and commit variables. https://github.com/AbdulwadudMohamed/list-repo/issues/9
+- [ ] Get all exported variables from bash script and store them properly in Python. https://github.com/AbdulwadudMohamed/list-repo/issues/10 
+- [ ] Update the filler data with variables stored. https://github.com/AbdulwadudMohamed/list-repo/issues/11
 - [ ] Allow different Users based on input. https://github.com/AbdulwadudMohamed/list-repo/issues/7
 
 ##### Unsolved Unexpected problems
