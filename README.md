@@ -14,7 +14,7 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 [Upcoming tasks](#upcoming-tasks)
 
-[Unsolved Unexpected problems](#-unsolved-unexpected-problems)
+[Unsolved Unexpected problems](#unsolved-unexpected-problems)
 
 
 ## Completed tasks
