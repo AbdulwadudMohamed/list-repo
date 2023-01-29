@@ -18,3 +18,6 @@ for repo in $(echo "${repos}" | jq -r '.[] | @base64'); do
     echo "Repo Desc: $repo_desc"
     echo "No of commits: $commits"
 done
+
+#Export variables
+export repo_name, commits
