@@ -50,4 +50,6 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 ###### Unsolved Unexpected problems
 
+-[ ] Weird output. https://github.com/AbdulwadudMohamed/list-repo/issues/13
+-[ ] Stored values are not being updated. https://github.com/AbdulwadudMohamed/list-repo/issues/12
 
