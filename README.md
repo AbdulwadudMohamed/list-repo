@@ -8,13 +8,13 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 ## Useful links
 
-[Completed tasks](Completed-tasks)
+[Completed tasks](-Completed-tasks)
 
-[Solved Unexpected problems](Solved-Unexpected-problems)
+[Solved Unexpected problems](-Solved-Unexpected-problems)
 
-[Upcoming tasks](Upcoming-tasks)
+[Upcoming tasks](-Upcoming-tasks)
 
-[Unsolved Unexpected problems](Unsolved-Unexpected-problems)
+[Unsolved Unexpected problems](-Unsolved-Unexpected-problems)
 
 
 ## Completed tasks
