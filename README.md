@@ -1,9 +1,21 @@
 <h1 align="center">Bash Script To List Github Repos</h1>
 
-## Goal
+## Introduction
 
 
-To List repositories of the User which is defined in script. To use the GitHub API to get a list of the repositories. I am trying to make a standard listing script that I can build and improve. Decided to expand on this project to develop a script that can be called with python. Afterwards displaing the data with some form of data representation.
+The goal of this project is to list GitHub repositories of the User which is defined in script. To use the GitHub API to get a list of the repositories. I am trying to make a standard listing script that I can build and improve. Decided to expand on this project to develop a script that can be called with python. Afterwards displaing the data with some form of data representation.
+
+
+## Useful links
+
+[Completed tasks](Completed-tasks)
+
+[Solved Unexpected problems](Solved-Unexpected-problems)
+
+[Upcoming tasks](Upcoming-tasks)
+
+[Unsolved Unexpected problems](Unsolved-Unexpected-problems)
+
 
 ## Completed tasks
 
