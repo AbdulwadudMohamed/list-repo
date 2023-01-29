@@ -6,30 +6,41 @@
 The goal of this project is to list GitHub repositories of the User which is defined in script. To use the GitHub API to get a list of the repositories. I am trying to make a standard listing script that I can build and improve. Decided to expand on this project to develop a script that can be called with python. Afterwards displaing the data with some form of data representation.
 
 
-## Useful links
+## Table of Contents
 
-[Completed tasks](#completed-tasks)
+### [Project progress](#project-progress)
 
-[Solved Unexpected problems](#solved-unexpected-problems)
+- #### [Finished](#finished)
+  - [Completed tasks](#completed-tasks)
+  - [Solved Unexpected problems](#solved-unexpected-problems)
 
-[Upcoming tasks](#upcoming-tasks)
+- #### [Current Issues](#to-do)
+  - [Upcoming tasks](#upcoming-tasks)
+  - [Unsolved Unexpected problems](#unsolved-unexpected-problems)
 
-[Unsolved Unexpected problems](#unsolved-unexpected-problems)
 
 
-## Completed tasks
+## Project progress
+
+
+### Finished
+
+#### Completed tasks
 
 - [x] Prompt the user to input their Username https://github.com/AbdulwadudMohamed/list-repo-bash/issues/1
 - [x] List more details about the repositories https://github.com/AbdulwadudMohamed/list-repo-bash/issues/2
 - [x] Write python code that takes the arguments from the bash script. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/3
 - [x] Use matplotlib to process the data into a bar chart. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/4
 
-##### Solved Unexpected problems
+###### Solved Unexpected problems
 
 - [x] Fix error with bash script https://github.com/AbdulwadudMohamed/list-repo/issues/5
 - [x] Fix issue with Python Subprocess https://github.com/AbdulwadudMohamed/list-repo/issues/6
 
-## Upcoming tasks
+### TO DO
+
+
+#### Upcoming tasks
 
 - [ ] Get name for each repo stored in variable. https://github.com/AbdulwadudMohamed/list-repo/issues/8
 - [ ] Export each repo name variables and commit variables. https://github.com/AbdulwadudMohamed/list-repo/issues/9
@@ -37,4 +48,6 @@ The goal of this project is to list GitHub repositories of the User which is def
 - [ ] Update the filler data with variables stored. https://github.com/AbdulwadudMohamed/list-repo/issues/11
 - [ ] Allow different Users based on input. https://github.com/AbdulwadudMohamed/list-repo/issues/7
 
-##### Unsolved Unexpected problems
+###### Unsolved Unexpected problems
+
+
