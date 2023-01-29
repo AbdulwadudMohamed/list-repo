@@ -10,6 +10,7 @@ To List repositories of the User which is defined in script. To use the GitHub A
 - [x] Prompt the user to input their Username https://github.com/AbdulwadudMohamed/list-repo-bash/issues/1
 - [x] List more details about the repositories https://github.com/AbdulwadudMohamed/list-repo-bash/issues/2
 - [x] Write python code that takes the arguments from the bash script. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/3
+- [x] Use matplotlib to process the data into a bar chart. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/4
 
 ##### Solved Unexpected problems
 
@@ -18,7 +19,7 @@ To List repositories of the User which is defined in script. To use the GitHub A
 
 ## Upcoming tasks
 
-- [ ] Use matplotlib to process the data into a bar chart. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/4
+- [ ] Separate data taken from script. https://github.com/AbdulwadudMohamed/list-repo/issues/8
 - [ ] Allow different Users based on input. https://github.com/AbdulwadudMohamed/list-repo/issues/7
 
 ##### Unsolved Unexpected problems
