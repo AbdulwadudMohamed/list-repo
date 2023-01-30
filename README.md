@@ -32,6 +32,7 @@ The goal of this project is to list GitHub repositories of the User which is def
 - [x] List more details about the repositories https://github.com/AbdulwadudMohamed/list-repo-bash/issues/2
 - [x] Write python code that takes the arguments from the bash script. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/3
 - [x] Use matplotlib to process the data into a bar chart. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/4
+- [x] Get details for each repo stored in variable. https://github.com/AbdulwadudMohamed/list-repo/issues/8
 
 ###### Solved Unexpected problems
 
@@ -39,13 +40,13 @@ The goal of this project is to list GitHub repositories of the User which is def
 - [x] Fix issue with Python Subprocess https://github.com/AbdulwadudMohamed/list-repo/issues/6
 - [x] Weird outputs being echoed. https://github.com/AbdulwadudMohamed/list-repo/issues/13
 - [x] Personal tokens to increase rate limit https://github.com/AbdulwadudMohamed/list-repo/issues/14
+- [x] Stored values are not being updated. https://github.com/AbdulwadudMohamed/list-repo/issues/12
 
 ### TO DO
 
 
 #### Upcoming tasks
 
-- [ ] Get details for each repo stored in variable. https://github.com/AbdulwadudMohamed/list-repo/issues/8
 - [ ] Export each repo name variables and commit variables. https://github.com/AbdulwadudMohamed/list-repo/issues/9
 - [ ] Get all exported variables from bash script and store them properly in Python. https://github.com/AbdulwadudMohamed/list-repo/issues/10 
 - [ ] Update the filler data with variables stored. https://github.com/AbdulwadudMohamed/list-repo/issues/11
@@ -58,5 +59,5 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 ###### Unsolved Unexpected problems
 
-- [ ] Stored values are not being updated. https://github.com/AbdulwadudMohamed/list-repo/issues/12
+
 
