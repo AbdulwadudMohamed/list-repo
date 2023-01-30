@@ -4,10 +4,10 @@ import subprocess
 import matplotlib.pyplot as plt
 
 #Call the script and pass the arguments
-result = subprocess.run(["bash", "list-repo.sh"])
-#exported_repo_array = subprocess.run(["bash", "-c", "declare -p REPONAMES"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding='utf-8')
+import subprocess
 
-#Check the return code
+result = subprocess.run(['./list-repo.sh'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+
 if result.returncode == 0:
     print("Script completed successfully.")
 else:
@@ -22,16 +22,8 @@ else:
     #Convert the string to a list of elements
 #    python_repo_name_array = repo_name_array.strip().split(" ")
 
-with open("REPONAMES.txt", "r") as f:
-    exported_repo_array = f.read()
-
-#Extract the exported repo_array string
-repo_name_array = exported_repo_array.split("=(", 1)[1][:-2]
-
-#Convert the string to a list of elements
-python_repo_name_array = repo_name_array.split(" ")
-
-print (python_repo_name_array)
+f = open("REPONAMES.txt", "r")
+print(f.readline())
 
 
 

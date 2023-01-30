@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Set Username
 username="AbdulwadudMohamed"
 #Declare arrays
@@ -49,12 +51,11 @@ done
 
 
 #Loop through the array and write each element to the file
+echo -n > REPONAMES.txt
 for repo in "${REPONAMES[@]}"; do
     echo $repo >> REPONAMES.txt
 done
 
 
-
-
-echo "sucess"
+echo "success"
 
