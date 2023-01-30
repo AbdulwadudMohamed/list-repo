@@ -85,7 +85,7 @@ for repo in $(echo "${repos}" | jq -r '.[] | @base64'); do
     commits=$(curl -s -k "https://api.github.com/repos/$username/$repo_name/commits?per_page=1" | sed -n '/^[Ll]ink:/ s/.*"next".*page=\([0-9]*\).*"last".*/\1/p')
    
     #Output
-    echo "Collected Data"
+    #echo "Collected Data"
     #echo "Repo Name: $repo_name" 
     #echo "Repo Desc: $repo_desc"
     #echo "No of commits: $commits"
