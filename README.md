@@ -36,6 +36,7 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 - [x] Fix error with bash script https://github.com/AbdulwadudMohamed/list-repo/issues/5
 - [x] Fix issue with Python Subprocess https://github.com/AbdulwadudMohamed/list-repo/issues/6
+- [x] Weird outputs being echoed. https://github.com/AbdulwadudMohamed/list-repo/issues/13
 
 ### TO DO
 
@@ -50,6 +51,5 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 ###### Unsolved Unexpected problems
 
-- [ ] Weird outputs being echoed. https://github.com/AbdulwadudMohamed/list-repo/issues/13
 - [ ] Stored values are not being updated. https://github.com/AbdulwadudMohamed/list-repo/issues/12
 
