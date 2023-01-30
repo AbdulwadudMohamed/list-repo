@@ -90,7 +90,6 @@ Store() {
 for repo in $(echo "${repos}" | jq -r '.[] | @base64'); do
     repo_name=$(echo ${repo} | base64 --decode | jq -r '.name')
     repo_desc=$(echo ${repo} | base64 --decode | jq -r '.description')
-    commits=$(curl -s -k "https://api.github.com/repos/$username/$repo_name/commits?per_page=1" | sed -n '/^[Ll]ink:/ s/.*"next".*page=\([0-9]*\).*"last".*/\1/p')
     commits=$(curl \
     -H "Authorization: Bearer $TOKEN" \
     -s https://api.github.com/repos/$username/$repo_name/commits?per_page=100 | jq '. | length')
