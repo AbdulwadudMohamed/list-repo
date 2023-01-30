@@ -22,17 +22,39 @@ for repo in $(echo "${repos}" | jq -r '.[] | @base64'); do
     REPOCOMMITS+=("$commits")
     
     #Output
-    echo "Collected Data"
-    echo "Repo Name: $repo_name" 
-    echo "Repo Desc: $repo_desc"
-    echo "No of commits: $commits"
+    #echo "Collected Data"
+    #echo "Repo Name: $repo_name" 
+    #echo "Repo Desc: $repo_desc"
+    #echo "No of commits: $commits"
 done
 
 #Output Arrays
-for i in ${!REPONAMES[@]}; do
-  echo "Name $i is ${REPONAMES[$i]}"
+#for i in ${!REPONAMES[@]}; do
+#  echo "Name $i is ${REPONAMES[$i]}"
+#done
+
+#for i in ${!REPOCOMMITS[@]}; do
+#  echo "Commit $i is ${REPOCOMMITS[$i]}"
+#done
+
+#Export arrays
+#export REPONAMES=${RepoNo[0]}
+#for i in "${RepoNo[@]:1}"; do
+#   mdcList+=,$i
+#done
+
+
+#Export arrays
+
+
+
+#Loop through the array and write each element to the file
+for repo in "${REPONAMES[@]}"; do
+    echo $repo >> REPONAMES.txt
 done
 
-for i in ${!REPOCOMMITS[@]}; do
-  echo "Commit $i is ${REPOCOMMITS[$i]}"
-done
+
+
+
+echo "sucess"
+

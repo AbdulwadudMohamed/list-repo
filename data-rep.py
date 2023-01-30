@@ -2,12 +2,10 @@
 import subprocess
 #Data representation
 import matplotlib.pyplot as plt
-#Getting variables from bash script
-import os
 
 #Call the script and pass the arguments
 result = subprocess.run(["bash", "list-repo.sh"])
-
+#exported_repo_array = subprocess.run(["bash", "-c", "declare -p REPONAMES"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding='utf-8')
 
 #Check the return code
 if result.returncode == 0:
@@ -15,10 +13,32 @@ if result.returncode == 0:
 else:
     print("Script failed with error code", result.returncode)
 
-#Getting enviornment variables from script
+#if exported_repo_array.returncode != 0:
+#    print("Error:", exported_repo_array.stderr)
+#else:
+    #Extract the exported repo_array string
+#    repo_name_array = exported_repo_array.stdout.split("=(", 1)[1][:-2]
 
-#repo_name=os.environ["repo_name"]
-#repo_commits=os.environ[commits]
+    #Convert the string to a list of elements
+#    python_repo_name_array = repo_name_array.strip().split(" ")
+
+with open("REPONAMES.txt", "r") as f:
+    exported_repo_array = f.read()
+
+#Extract the exported repo_array string
+repo_name_array = exported_repo_array.split("=(", 1)[1][:-2]
+
+#Convert the string to a list of elements
+python_repo_name_array = repo_name_array.split(" ")
+
+print (python_repo_name_array)
+
+
+
+
+
+
+
 
 #Data representation
 
