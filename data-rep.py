@@ -1,26 +1,27 @@
 #Call & run scripts
-import subprocess
+#import subprocess
 #Data representation
 import matplotlib.pyplot as plt
 
 #result = subprocess.run(['Bash', './list-repo.sh'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, text=True)
-
-
 #print (result)
-
 #if result.returncode == 0:
 #    print("(Return code) Script completed successfully.")
 #else:
 #    print("(Return code) Script failed with error code", result.returncode)
 
+#Read and store Repo names
+repo_name_array = []
+with open("REPONAMES.txt", "r") as f:
+    for line in f:
+        repo_name_array.append(line.strip())
 
-repo_name_array=[]
-f = open("REPONAMES.txt", "r")
-repo_name_array.append(f.readlines())
 
+#Read and store Repo commits
 repo_commit_array=[]
-g = open("REPOCOMMITS.txt", "r")
-repo_commit_array.append(g.readlines())
+with open("REPOCOMMITS.txt", "r") as g:
+    for line in g:
+        repo_commit_array.append(int(line.strip()))
 
 print (repo_name_array)
 print (repo_commit_array)
