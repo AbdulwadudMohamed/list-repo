@@ -52,6 +52,7 @@ The goal of this project is to list GitHub repositories of the User which is def
 #### Upcoming tasks
 
 - [ ] Format outputs. https://github.com/AbdulwadudMohamed/list-repo/issues/16
+- [ ] Optimise solution. https://github.com/AbdulwadudMohamed/list-repo/issues/21
 
 ###### Unsolved Unexpected problems
 
@@ -61,5 +62,3 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 - [ ] Allow different Users based on input. https://github.com/AbdulwadudMohamed/list-repo/issues/7
 - [ ] Output the associated repo issues. https://github.com/AbdulwadudMohamed/list-repo/issues/15
-
-
