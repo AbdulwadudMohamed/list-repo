@@ -34,6 +34,7 @@ The goal of this project is to list GitHub repositories of the User which is def
 - [x] Export each repo name variables and commit variables. https://github.com/AbdulwadudMohamed/list-repo/issues/9
 - [x] Configure same storing and reading for Commits. https://github.com/AbdulwadudMohamed/list-repo/issues/19
 - [x] Get all exported variables from bash script and store them properly in Python. https://github.com/AbdulwadudMohamed/list-repo/issues/10
+- [x] Update the filler data with variables stored. https://github.com/AbdulwadudMohamed/list-repo/issues/11
 
 ###### Solved Unexpected problems
 
@@ -50,7 +51,7 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 #### Upcoming tasks
  
-- [ ] Update the filler data with variables stored. https://github.com/AbdulwadudMohamed/list-repo/issues/11
+- [x] Update the filler data with variables stored. https://github.com/AbdulwadudMohamed/list-repo/issues/11
 
 ###### Long term tasks
 
@@ -60,4 +61,4 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 ###### Unsolved Unexpected problems
 
-- [ ] GitHub Authentication environmental variable not working when Python calls script. https://github.com/AbdulwadudMohamed/list-repo/issues/20 
+- [ ] GitHub Authentication environmental variable not working when Python calls script. https://github.com/AbdulwadudMohamed/list-repo/issues/20
