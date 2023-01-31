@@ -1,64 +1,50 @@
-<h1 align="center">Bash Script To List Github Repos</h1>
+<h1 align="center">Automated Analysis of GitHub Repositories using Bash and Python</h1>
 
-## Introduction
+## Overview
 
 
-The goal of this project is to list GitHub repositories of the User which is defined in script. To use the GitHub API to get a list of the repositories. I am trying to make a standard listing script that I can build and improve. Decided to expand on this project to develop a script that can be called with python. Afterwards displaing the data with some form of data representation.
+This project's goal is to automate the listing and analysis of the GitHub repositories of a specified user. The project uses the GitHub API to gather information about the repositories and display the data visually. Integrating bash and python code in this project was to demonstrate my limited but growing ability in these scripting environments and my ability to resolve issues. The project developed used a combination of bash scripts and python code (matplotlib and subprocess). At the end of this project, the aim is to provide a comprehensive and easy-to-use tool for analysing the activity of a GitHub user's repositories.
 
 
 ## Table of Contents
 
-#### [Project progress](#project-progress)
+#### [Project Status](#project-status)
 
-- ##### [Finished](#finished)
-  - ###### [Completed tasks](#completed-tasks)
-  - ###### [Solved Unexpected problems](#solved-unexpected-problems)
+- ##### [Completed](#completed)
+- ##### [Current Issues](#current-issues)
 
-- ##### [Current Issues](#to-do)
-  - ###### [Upcoming tasks](#upcoming-tasks)
-  - ###### [Long term tasks](#long-term-tasks)
-  - ###### [Unsolved Unexpected problems](#unsolved-unexpected-problems)
-
-## Project progress
+## Project Status
 
 
-### Finished
+### Completed
 
-#### Completed tasks
-
-- [x] Prompt the user to input their Username https://github.com/AbdulwadudMohamed/list-repo-bash/issues/1
-- [x] List more details about the repositories https://github.com/AbdulwadudMohamed/list-repo-bash/issues/2
-- [x] Write python code that takes the arguments from the bash script. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/3
-- [x] Use matplotlib to process the data into a bar chart. https://github.com/AbdulwadudMohamed/list-repo-bash/issues/4
-- [x] Get details for each repo stored in variable. https://github.com/AbdulwadudMohamed/list-repo/issues/8
+- [x] Prompted user input of their GitHub username https://github.com/AbdulwadudMohamed/list-repo-bash/issues/1
+- [x] Listed more repository details https://github.com/AbdulwadudMohamed/list-repo-bash/issues/2
+- [x] Integrated bash and python code https://github.com/AbdulwadudMohamed/list-repo-bash/issues/3
+- [x] Visualized repository data with matplotlib https://github.com/AbdulwadudMohamed/list-repo-bash/issues/4
+- [x] Stored and processed repository and commit information https://github.com/AbdulwadudMohamed/list-repo/issues/8
 - [x] Export each repo name variables and commit variables. https://github.com/AbdulwadudMohamed/list-repo/issues/9
 - [x] Configure same storing and reading for Commits. https://github.com/AbdulwadudMohamed/list-repo/issues/19
 - [x] Get all exported variables from bash script and store them properly in Python. https://github.com/AbdulwadudMohamed/list-repo/issues/10
 - [x] Update the filler data with variables stored. https://github.com/AbdulwadudMohamed/list-repo/issues/11
 
-###### Solved Unexpected problems
+### Current issues
 
-- [x] Fix error with bash script https://github.com/AbdulwadudMohamed/list-repo/issues/5
-- [x] Fix issue with Python Subprocess https://github.com/AbdulwadudMohamed/list-repo/issues/6
-- [x] Weird outputs being echoed. https://github.com/AbdulwadudMohamed/list-repo/issues/13
-- [x] Personal tokens to increase rate limit https://github.com/AbdulwadudMohamed/list-repo/issues/14
-- [x] Stored values are not being updated. https://github.com/AbdulwadudMohamed/list-repo/issues/12
-- [x] Can't start Bash Script. https://github.com/AbdulwadudMohamed/list-repo/issues/17
-- [x] Read and store values from REPONAMES.txt with Python. https://github.com/AbdulwadudMohamed/list-repo/issues/18
-
-### TO DO
-
-
-#### Upcoming tasks
-
-- [ ] Format outputs. https://github.com/AbdulwadudMohamed/list-repo/issues/16
 - [ ] Optimise solution. https://github.com/AbdulwadudMohamed/list-repo/issues/21
-
-###### Unsolved Unexpected problems
-
 - [ ] GitHub Authentication environmental variable not working when Python calls script. https://github.com/AbdulwadudMohamed/list-repo/issues/20
+- [ ] Format outputs. (Graph, Description, Raw Data, Table Data)
 
-###### Long term tasks
+## Future Work
 
 - [ ] Allow different Users based on input. https://github.com/AbdulwadudMohamed/list-repo/issues/7
 - [ ] Output the associated repo issues. https://github.com/AbdulwadudMohamed/list-repo/issues/15
+
+## Dependencies
+
+## Screenshots & Demos
+
+## Running the Project
+
+## Contribution
+
+## License
