@@ -3,53 +3,40 @@ import subprocess
 #Data representation
 import matplotlib.pyplot as plt
 
-#Call the script and pass the arguments
-import subprocess
+result = subprocess.run(['Bash', './list-repo.sh'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, text=True)
 
-result = subprocess.run(['./list-repo.sh'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+
+#print (result)
 
 if result.returncode == 0:
-    print("Script completed successfully.")
+    print("(Return code) Script completed successfully.")
 else:
-    print("Script failed with error code", result.returncode)
+    print("(Return code) Script failed with error code", result.returncode)
 
-#if exported_repo_array.returncode != 0:
-#    print("Error:", exported_repo_array.stderr)
-#else:
-    #Extract the exported repo_array string
-#    repo_name_array = exported_repo_array.stdout.split("=(", 1)[1][:-2]
 
-    #Convert the string to a list of elements
-#    python_repo_name_array = repo_name_array.strip().split(" ")
-
+repo_name_array=[]
 f = open("REPONAMES.txt", "r")
-print(f.readline())
+repo_name_array.append(f.readlines())
 
-
-
-
-
-
-
+print (repo_name_array)
 
 #Data representation
 
 #Data to represent
-data = [10, 20, 30, 40, 50]
+#data = [10, 20, 30, 40, 50]
 
 #Create a new figure and axes
-fig, ax = plt.subplots()
+#fig, ax = plt.subplots()
 
 #Create the bar chart
-ax.bar(range(len(data)), data)
+#ax.bar(range(len(data)), data)
 
 #Set the x-axis labels
-ax.set_xticks(range(len(data)))
-ax.set_xticklabels(['Data 1', 'Data 2', 'Data 3', 'Data 4', 'Data 5'])
+#ax.set_xticks(range(len(data)))
+#ax.set_xticklabels(['Data 1', 'Data 2', 'Data 3', 'Data 4', 'Data 5'])
 
 #Set the y-axis label
-ax.set_ylabel('Value')
+#ax.set_ylabel('Value')
 
 #Show the plot
-plt.show()
-
+#plt.show()
