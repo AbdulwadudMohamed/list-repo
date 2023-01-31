@@ -40,6 +40,8 @@ The goal of this project is to list GitHub repositories of the User which is def
 - [x] Weird outputs being echoed. https://github.com/AbdulwadudMohamed/list-repo/issues/13
 - [x] Personal tokens to increase rate limit https://github.com/AbdulwadudMohamed/list-repo/issues/14
 - [x] Stored values are not being updated. https://github.com/AbdulwadudMohamed/list-repo/issues/12
+- [x] Can't start Bash Script. https://github.com/AbdulwadudMohamed/list-repo/issues/17
+- [x] Read and store values from REPONAMES.txt with Python. https://github.com/AbdulwadudMohamed/list-repo/issues/18
 
 ### TO DO
 
@@ -58,6 +60,4 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 ###### Unsolved Unexpected problems
 
-- [ ] Can't start Bash Script. https://github.com/AbdulwadudMohamed/list-repo/issues/17
-- [ ] Read and store values from REPONAMES.txt with Python. https://github.com/AbdulwadudMohamed/list-repo/issues/18
 
