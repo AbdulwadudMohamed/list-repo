@@ -50,15 +50,16 @@ The goal of this project is to list GitHub repositories of the User which is def
 
 
 #### Upcoming tasks
- 
-- [x] Update the filler data with variables stored. https://github.com/AbdulwadudMohamed/list-repo/issues/11
 
-###### Long term tasks
-
-- [ ] Allow different Users based on input. https://github.com/AbdulwadudMohamed/list-repo/issues/7
-- [ ] Output the associated repo issues. https://github.com/AbdulwadudMohamed/list-repo/issues/15
 - [ ] Format outputs. https://github.com/AbdulwadudMohamed/list-repo/issues/16
 
 ###### Unsolved Unexpected problems
 
 - [ ] GitHub Authentication environmental variable not working when Python calls script. https://github.com/AbdulwadudMohamed/list-repo/issues/20
+
+###### Long term tasks
+
+- [ ] Allow different Users based on input. https://github.com/AbdulwadudMohamed/list-repo/issues/7
+- [ ] Output the associated repo issues. https://github.com/AbdulwadudMohamed/list-repo/issues/15
+
+
