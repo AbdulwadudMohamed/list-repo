@@ -40,7 +40,6 @@ This project's goal is to automate the listing and analysis of the GitHub reposi
 
 ## Future Work
 
-- [ ] Workflow to utilise BATS. https://github.com/AbdulwadudMohamed/list-repo/issues/23
 - [ ] Workflow to utilise linter. https://github.com/AbdulwadudMohamed/list-repo/issues/22
 - [ ] Allow different Users based on input. https://github.com/AbdulwadudMohamed/list-repo/issues/7
 - [ ] Output the associated repo issues. https://github.com/AbdulwadudMohamed/list-repo/issues/15
