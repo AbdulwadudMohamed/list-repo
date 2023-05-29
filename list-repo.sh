@@ -7,7 +7,7 @@ username="AbdulwadudMohamed"
 REPONAMES=()
 REPOCOMMITS=()
 
-#-H "Authorization: Bearer $TOKEN" \
+-H "Authorization: Bearer $TOKEN" \
 
 #Repositories changed to 100 per page instead of 1000
 repos=$(curl \
